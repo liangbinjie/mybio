@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Benji's Bio | Music</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="image/logo.png" type="image/png" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav_bar">
+                <a href="index.html"><img src="image/logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT ME</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="/">SOCIAL MEDIA</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left-col">
+                <h1>MY FAVORITE<br><span>MUSIC 🎧</span></h1>
+            </div>
+            <div class="right-col">
+                <p>Click to listen </p>
+                <img src="image/next.png" id="prev">
+                <img src="image/play.png" id="icon">
+                <img src="image/next.png" id="next">
+            </div>
+        </div>
+    </div>
+
+    <audio id="song">
+        <source src="songs/0.mp3" type="audio/mp3"> 
+    </audio>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

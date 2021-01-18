@@ -3,7 +3,6 @@ var icon = document.getElementById("icon");
 var next = document.getElementById("next");
 var prev = document.getElementById("prev");
 let x = 0;
-let song_dir = `songs/${x}.mp3`;
 
 icon.onclick = function() {
     if (song.paused) {
@@ -18,6 +17,9 @@ icon.onclick = function() {
 
 next.onclick = function() {
     x += 1;
+    if (x == 5) {
+        return x = -1;
+    };
     document.getElementById("song").src = `songs/${x}.mp3`
     song.load()
     song.play()
@@ -26,7 +28,11 @@ next.onclick = function() {
 
 prev.onclick = function() {
     x -= 1;
+    if (x == -1) {
+        return x = 5;
+    };
     document.getElementById("song").src = `songs/${x}.mp3`
     song.load()
     song.play()
-}
+
+};

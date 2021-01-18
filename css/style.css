@@ -145,7 +145,7 @@
         padding: 20px;
     }
     .nav_bar .logo {
-        max-height: 60px;
+        max-height: 30px;
     }
     .nav_bar ul {
         display: none;
@@ -154,5 +154,10 @@
         font-size: 90px;
         font-weight: bold;
         margin-left: 20px;
+    }
+    .left-col h1 {
+    font-size: 40px;
+    line-height: 45px;
+    float: left;
     }
 }

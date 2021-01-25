@@ -148,7 +148,12 @@
         max-height: 30px;
     }
     .nav_bar ul {
-        display: none;
+        display: block;
+    }
+    .nav_bar ul li a {
+        font-size: 14px;
+        padding-left: 20px
+
     }
     .ab-right-col h1 {
         font-size: 90px;
@@ -188,3 +193,4 @@
         margin-left: 20px;
     }
 }
+

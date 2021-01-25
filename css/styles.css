@@ -75,3 +75,15 @@
     position: absolute;
     top: 100%;
 }
+@media (max-width: 991px) {
+    .navbar {
+        padding: 20px;
+    }
+    .logo {
+        max-height: 30px;
+    }
+    .navbar ul {
+        display: block;
+        font-size: 12px;
+    }
+}

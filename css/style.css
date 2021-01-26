@@ -109,6 +109,18 @@
     margin-right: 25px;
 }
 
+.logo-div {
+    margin-right: 95%;
+    margin-top: 10%;
+}
+
+.logo-div img {
+    display: block;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
 #prev {
     height: 40px;
     cursor: pointer;
@@ -127,65 +139,55 @@
     padding: 5px;
 }
 
-.toggle {
-    position: relative;
-    width: 30px;
-    height: 30px;
+.checkbtn {
+    font-size: 40px;
+    margin: auto;
+    float: right;
     cursor: pointer;
-    background: url(../image/menu.png);
-    background-size: 30px;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: invert(1);
-    margin-left: auto;
+    display: none;
 }
 
-@media (max-width: 991px) {
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
     .nav_bar {
         padding: 20px;
     }
-    .nav_bar .logo {
-        max-height: 30px;
-    }
-    .nav_bar ul {
-        display: block;
-    }
-    .nav_bar ul li a {
-        font-size: 14px;
-        padding-left: 20px
-
+    .nav_bar.logo {
+        max-height: 60px;
     }
     .ab-right-col h1 {
         font-size: 90px;
         font-weight: bold;
         margin-left: 20px;
     }
-    .left-col h1 {
-    font-size: 45px;
-    line-height: 45px;
-    float: left;
-}
-
-.left-col h1 span {
-    text-decoration: underline red;
-}
-    .right-col {
-        position: absolute;
-        top: 50px;
-        margin-left: 25px
+    .sm-right-col h1 {
+        font-size: 50px;
+        margin-left: 20px;
     }
-
 }
 
-@media (min-width: 993px) {
-    .toggle {
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+        position: fixed;
+        right: 60px;
+        top: 20px;
+    }
+    .nav_bar {
+        padding: 20px;
+    }
+    .nav_bar .logo {
+        max-height: 60px;
+    }
+    .nav_bar ul li {
         display: none;
     }
-    .nav_bar {
-        padding: 20px;
-    }
-    .nav_bar .logo {
-        max-height: 30px;
+    .nav_bar ul li a {
+        color: rgb(0, 0, 0);
+        font-size: 20;
     }
     .ab-right-col h1 {
         font-size: 90px;
@@ -193,4 +195,3 @@
         margin-left: 20px;
     }
 }
-

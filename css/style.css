@@ -167,6 +167,17 @@
         font-size: 50px;
         margin-left: 20px;
     }
+    .left-col {
+        align-items: center;
+    }
+    .left-col h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .right-col {
+        padding-right: 30px;
+    }
+}
 }
 
 @media (max-width: 858px) {

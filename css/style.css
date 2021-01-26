@@ -155,8 +155,33 @@
     .nav_bar {
         padding: 20px;
     }
-    .nav_bar.logo {
-        max-height: 60px;
+    .nav_bar .logo {
+        max-height: 30px;
+    }
+    .nav_bar ul {
+        display: block;
+    }
+    .nav_bar ul li a {
+        font-size: 14px;
+        padding-left: 20px
+    }
+    .ab-right-col h1 {
+        font-size: 90px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .left-col h1 {
+        font-size: 45px;
+        line-height: 45px;
+        float: left;
+    }
+    .left-col h1 span {
+        text-decoration: underline red;
+    }
+    .right-col {
+        position: absolute;
+        top: 50px;
+        margin-left: 25px
     }
     .ab-right-col h1 {
         font-size: 90px;
@@ -167,38 +192,17 @@
         font-size: 50px;
         margin-left: 20px;
     }
-    .left-col {
-        align-items: center;
-    }
-    .left-col h1{
-        font-size: 45px;
-        line-height: 45px;
-    }
-    .right-col {
-        padding-right: 30px;
-    }
-}
 }
 
-@media (max-width: 858px) {
-    .checkbtn {
-        display: block;
-        position: fixed;
-        right: 60px;
-        top: 20px;
+@media (min-width: 993px) {
+    .toggle {
+        display: none;
     }
     .nav_bar {
         padding: 20px;
     }
     .nav_bar .logo {
-        max-height: 60px;
-    }
-    .nav_bar ul li {
-        display: none;
-    }
-    .nav_bar ul li a {
-        color: rgb(0, 0, 0);
-        font-size: 20;
+        max-height: 30px;
     }
     .ab-right-col h1 {
         font-size: 90px;

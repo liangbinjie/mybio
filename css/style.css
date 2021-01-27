@@ -109,6 +109,17 @@
     margin-right: 25px;
 }
 
+.sm-right-col {
+    float: right;
+    margin-right: 6%;
+}
+
+.sm-right-col h1 {
+    font-size: 90px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
 .logo-div {
     margin-right: 95%;
     margin-top: 10%;
@@ -188,9 +199,22 @@
         font-weight: bold;
         margin-left: 20px;
     }
+    .sm-right-col {
+        float: left;
+    }
     .sm-right-col h1 {
-        font-size: 50px;
+        font-size: 45px;
+        margin-left: 20px
+    }
+    .logo-div {
+        padding-top: 50px
+    }
+    .sm-right-col h1 {
+        font-size: 45px;
         margin-left: 20px;
+    }
+    .logo-div img {
+        height: 70px;
     }
 }
 

@@ -17,7 +17,7 @@ icon.onclick = function() {
 
 next.onclick = function() {
     x += 1;
-    if (x == 6) {
+    if (x == 11) {
         return x = -1;
     };
     document.getElementById("song").src = `songs/${x}.mp3`
@@ -29,7 +29,7 @@ next.onclick = function() {
 prev.onclick = function() {
     x -= 1;
     if (x == -1) {
-        return x = 6;
+        return x = 11;
     };
     document.getElementById("song").src = `songs/${x}.mp3`
     song.load()
